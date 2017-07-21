@@ -1,7 +1,4 @@
 package: github.com/giantswarm/ingresstpr
 import:
-- package: k8s.io/client-go
-  version: v3.0.0-beta.0
-  subpackages:
-  - pkg/api
-  - pkg/meta/v1
+- package: github.com/giantswarm/operatorkit
+  version: master

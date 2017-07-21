@@ -1,10 +1,12 @@
-hash: 5cd3f4b8398da6655d87bdc01400e027d4a4fc5833a6d1be275866cbc42b07f4
-updated: 2017-06-30T13:31:43.826898942+02:00
+hash: dec6f5df32f8c98762472100afb981060f48c71f400774ef28424838449345cd
+updated: 2017-07-21T16:53:19.987795742+02:00
 imports:
 - name: github.com/emicklei/go-restful
   version: 09691a3b6378b740595c1002f40c34dd5f218a22
   subpackages:
   - log
+- name: github.com/giantswarm/operatorkit
+  version: 2ed2153269a30dc8331b2fca4b6a314dad02f9b6
 - name: github.com/go-openapi/jsonpointer
   version: 46af16f9f7b149af66e5d1bd010e3574dc06de98
 - name: github.com/go-openapi/jsonreference
@@ -57,7 +59,7 @@ imports:
 - name: gopkg.in/inf.v0
   version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
 - name: k8s.io/apimachinery
-  version: 75b8dd260ef0469d96d578705a87cffd0e09dab8
+  version: 85ace5365f33b16fc735c866a12e3c765b9700f2
   subpackages:
   - pkg/api/resource
   - pkg/apis/meta/v1
@@ -79,9 +81,4 @@ imports:
   - pkg/util/wait
   - pkg/watch
   - third_party/forked/golang/reflect
-- name: k8s.io/client-go
-  version: 3627aeb7d4f6ade38f995d2c923e459146493c7e
-  subpackages:
-  - pkg/api
-  - pkg/meta/v1
 testImports: []
