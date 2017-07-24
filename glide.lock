@@ -1,5 +1,5 @@
-hash: dec6f5df32f8c98762472100afb981060f48c71f400774ef28424838449345cd
-updated: 2017-07-21T16:53:19.987795742+02:00
+hash: 5891afa6d22e8522373bf99b2023712e39fcf70e4ca2f0411394f7f30a5cb53d
+updated: 2017-07-21T17:31:14.209357627+02:00
 imports:
 - name: github.com/emicklei/go-restful
   version: 09691a3b6378b740595c1002f40c34dd5f218a22
@@ -81,4 +81,24 @@ imports:
   - pkg/util/wait
   - pkg/watch
   - third_party/forked/golang/reflect
-testImports: []
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
+  subpackages:
+  - spew
+- name: github.com/kylelemons/godebug
+  version: a616ab194758ae0a11290d87ca46ee8c440117b0
+  subpackages:
+  - diff
+  - pretty
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+  - require
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
